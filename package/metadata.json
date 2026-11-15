@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Id": "org.local.taskbar.sync",
+        "Name": "Taskbar Sync Companion",
+        "Description": "Coordinates existing stock Task Managers",
+        "Icon": "view-sort-ascending",
+        "Version": "0.1.0",
+        "License": "MIT",
+        "Authors": [
+            {
+                "Name": "Taskbar Sync contributors"
+            }
+        ],
+        "Category": "Windows and Tasks"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "KPackageStructure": "Plasma/Applet"
+}
